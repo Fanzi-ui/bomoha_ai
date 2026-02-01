@@ -1,0 +1,24 @@
+{
+  "id": "lisa-reminders",
+  "name": "Lisa Reminders",
+  "version": "0.1.0",
+  "description": "Reminder scheduling with Telegram inline actions.",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "storePath": {
+        "type": "string",
+        "description": "Path to reminders JSON store."
+      },
+      "allowedUserId": {
+        "type": ["string", "number"],
+        "description": "Telegram user id for reminder delivery."
+      },
+      "snoozeMinutes": {
+        "type": "number",
+        "description": "Default snooze duration in minutes."
+      }
+    }
+  }
+}

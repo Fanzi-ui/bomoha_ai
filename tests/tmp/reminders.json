@@ -1,0 +1,15 @@
+{
+  "nextId": 2,
+  "reminders": [
+    {
+      "id": 1,
+      "text": "test reminder",
+      "dueAt": 1769962770502,
+      "createdAt": 1769962710502,
+      "createdBy": 123,
+      "createdIn": "telegram",
+      "status": "scheduled",
+      "lastFiredAt": null
+    }
+  ]
+}
